@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Pomodoro Timer</string>
+
+    <!-- Phases -->
+    <string name="phase_focus">Focus</string>
+    <string name="phase_short_break">Short break</string>
+    <string name="phase_long_break">Long break</string>
+
+    <!-- Timer screen -->
+    <string name="start">Start</string>
+    <string name="resume">Resume</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="skip">Skip to next phase</string>
+    <string name="session_progress">Session %1$d of %2$d</string>
+    <string name="time_remaining_description">%1$s remaining in %2$s</string>
+    <string name="status_paused">Paused</string>
+    <string name="today_summary">Today: %1$s · %2$s</string>
+    <plurals name="sessions_count">
+        <item quantity="one">%1$d session</item>
+        <item quantity="other">%1$d sessions</item>
+    </plurals>
+    <plurals name="minutes_count">
+        <item quantity="one">%1$d min</item>
+        <item quantity="other">%1$d min</item>
+    </plurals>
+    <string name="statistics">Statistics</string>
+    <string name="settings">Settings</string>
+    <string name="navigate_up">Navigate up</string>
+
+    <!-- Statistics -->
+    <string name="stats_today">Today</string>
+    <string name="stats_this_week">Last 7 days</string>
+    <string name="stats_all_time">All time</string>
+    <string name="stats_chart_title">Focus minutes per day</string>
+    <string name="stats_chart_description">Bar chart of focus minutes for the last 7 days</string>
+    <string name="stats_empty_title">No focus sessions yet</string>
+    <string name="stats_empty_body">Finish a focus session and your progress will show up here.</string>
+    <string name="stats_error">Couldn\'t load your statistics.</string>
+    <string name="clear_history">Clear history</string>
+    <string name="clear_history_title">Clear all history?</string>
+    <string name="clear_history_body">All recorded focus sessions will be permanently deleted.</string>
+    <string name="clear">Clear</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Settings -->
+    <string name="timer_label">Timer</string>
+    <string name="focus_length">Focus length</string>
+    <string name="short_break_length">Short break length</string>
+    <string name="long_break_length">Long break length</string>
+    <string name="sessions_until_long_break">Sessions before a long break</string>
+    <string name="minutes_value">%1$d min</string>
+    <string name="decrease">Decrease %1$s</string>
+    <string name="increase">Increase %1$s</string>
+    <string name="auto_start_breaks">Auto-start breaks</string>
+    <string name="auto_start_breaks_summary">Begin a break as soon as a focus session ends</string>
+    <string name="auto_start_focus">Auto-start focus</string>
+    <string name="auto_start_focus_summary">Begin the next focus session as soon as a break ends</string>
+    <string name="settings_apply_hint">Length changes apply from the next phase you start.</string>
+    <string name="theme_label">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="dynamic_color">Dynamic color</string>
+    <string name="dynamic_color_summary">Use colors from your wallpaper</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Timer alerts</string>
+    <string name="notification_focus_done_title">Focus session complete</string>
+    <string name="notification_focus_done_body">Nice work! Time for a break.</string>
+    <string name="notification_break_done_title">Break is over</string>
+    <string name="notification_break_done_body">Ready? Time to focus.</string>
+</resources>
